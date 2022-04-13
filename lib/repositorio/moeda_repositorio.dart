@@ -6,17 +6,17 @@ class MoedaRepositorio {
         icone: 'images/bitcoin.png',
         nome: 'Bitcoin',
         sigla: 'BTC',
-        preco: 198.751),
+        preco: 198785.12),
     Moeda(
         icone: 'images/ethereum.png',
         nome: 'Ethereum',
         sigla: 'ETH',
-        preco: 15.090),
+        preco: 15.09),
     Moeda(
         icone: 'images/tether.png',
         nome: 'Tether',
         sigla: 'USDT',
-        preco: 4.700),
+        preco: 4.70),
     Moeda(
         icone: 'images/solana.png',
         nome: 'Solana',

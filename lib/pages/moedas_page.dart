@@ -38,6 +38,7 @@ class _MoedasPageState extends State<MoedasPage> {
         backgroundColor: Colors.blueGrey[50],
         elevation: 1,
         iconTheme: IconThemeData(color: Colors.black87),
+        // ignore: deprecated_member_use
         textTheme: TextTheme(
           headline6: TextStyle(
               color: Colors.black87, fontSize: 20, fontWeight: FontWeight.bold),
@@ -86,7 +87,7 @@ class _MoedasPageState extends State<MoedasPage> {
               selectedTileColor: Colors.indigo[50],
               onLongPress: () {
                 setState(() {
-                  //PEGAR O NOME DESSE IF
+                  //PEGAR O NOME DESSE IF TERNARIO
                   (selecionadas.contains(tabela[moeda]))
                       ? selecionadas.remove(tabela[moeda])
                       : selecionadas.add(tabela[moeda]);

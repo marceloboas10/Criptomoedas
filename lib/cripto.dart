@@ -1,4 +1,4 @@
-import 'package:criptomoedas/pages/moedas_page.dart';
+import 'package:criptomoedas/pages/home_page.dart';
 import 'package:flutter/material.dart';
 
 class Cripto extends StatelessWidget {
@@ -10,7 +10,7 @@ class Cripto extends StatelessWidget {
       title: 'Vilas Boas',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.indigo),
-      home: MoedasPage(),
+      home: HomePage(),
     );
   }
 }

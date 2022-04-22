@@ -42,6 +42,7 @@ class _HomePageState extends State<HomePage> {
           BottomNavigationBarItem(icon: Icon(Icons.list), label: 'Todas'),
           BottomNavigationBarItem(icon: Icon(Icons.star), label: 'Favoritas'),
         ],
+        backgroundColor: Colors.grey[200],
         onTap: (pagina) {
           pc.animateToPage(
             pagina,
